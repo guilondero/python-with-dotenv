@@ -3,7 +3,7 @@ import os
 
 
 dotenv.load_dotenv(dotenv.find_dotenv())     #your file need to be ".env" and stay in the same folder of your code.py, for more infos lead the library
-#in a real project you .env never goes to the repositorio, this is a "secret" file with yours credencial
+#in a real project your .env never goes to your repositori, this is a "secret" file with yours credencial
 
 
 userName = os.getenv("account")
