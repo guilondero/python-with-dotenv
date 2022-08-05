@@ -6,4 +6,4 @@ dotenv.load_dotenv(dotenv.find_dotenv())     #your file need to be ".env" and st
 
 userName = os.getenv("account")
 
-password = os.getenv("")
+password = os.getenv("pass")
